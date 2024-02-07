@@ -16,7 +16,7 @@ function lowest (numbers){
 
 // Task -2:
 // Find the friend with the smallest name.
-const heights = ['rahim', 'robin','r', 'ron', 'rashed'];
+const heights = ['rahim', 'robin', 'ron', 'rashed','r'];
 
 function fewestWords(name){
   let smallest = name[0].length;
@@ -28,7 +28,7 @@ function fewestWords(name){
   return smallest;
 }
 
-// console.log(fewestWords(heights))
+console.log(fewestWords(heights))
 
 
 // Task-3:
